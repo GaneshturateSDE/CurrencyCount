@@ -148,7 +148,7 @@ const CurrencyCounter = () => {
                 </div>
                 <div className="flex-grow">
                   <label className="block text-sm font-medium text-gray-700 mb-1">
-                    ₹{note.value} {note.value >= 20 ? 'Note' : 'Coin'}
+                    ₹{note.value} {note.value >= 10 ? 'Note' : 'Coin'}
                   </label>
                   <div className="flex gap-2">
                     <input
