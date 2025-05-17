@@ -39,16 +39,16 @@ const CurrencyCounter = () => {
     };
 
     const currencyNotes = [
-        { value: 2000, image: '../src/assets/images/2000.jpg', alt: '2000 rupee note' },
-        { value: 500, image: '../src/assets/images/500.jpg', alt: '500 rupee note' },
-        { value: 200, image: '../src/assets/images/200.jpg', alt: '200 rupee note' },
-        { value: 100, image: '../src/assets/images/100.jpg', alt: '100 rupee note' },
-        { value: 50, image: '../src/assets/images/50.jpg', alt: '50 rupee note' },
-        { value: 20, image: '../src/assets/images/20.jpg', alt: '20 rupee note' },
-        { value: 10, image: '../src/assets/images/10.jpg', alt: '10 rupee note' },
-        { value: 5, image: '../src/assets/images/5.jpg', alt: '5 rupee coin' },
-        { value: 2, image: '../src/assets/images/2.jpg', alt: '2 rupee coin' },
-        { value: 1, image: '../src/assets/images/1.jpg', alt: '1 rupee coin' }
+        { value: 2000, image: '../dist/assets/images/2000.jpg', alt: '2000 rupee note' },
+        { value: 500, image: '../dist/assets/images/500.jpg', alt: '500 rupee note' },
+        { value: 200, image: '../dist/assets/images/200.jpg', alt: '200 rupee note' },
+        { value: 100, image: '../dist/assets/images/100.jpg', alt: '100 rupee note' },
+        { value: 50, image: '../dist/assets/images/50.jpg', alt: '50 rupee note' },
+        { value: 20, image: '../dist/assets/images/20.jpg', alt: '20 rupee note' },
+        { value: 10, image: '../dist/assets/images/10.jpg', alt: '10 rupee note' },
+        { value: 5, image: '../dist/assets/images/5.jpg', alt: '5 rupee coin' },
+        { value: 2, image: '../dist/assets/images/2.jpg', alt: '2 rupee coin' },
+        { value: 1, image: '../dist/assets/images/1.jpg', alt: '1 rupee coin' }
     ];
 
     return (
