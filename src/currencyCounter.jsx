@@ -39,16 +39,16 @@ const CurrencyCounter = () => {
     };
 
     const currencyNotes = [
-        { value: 2000, image: '../dist/assets/images/2000.jpg', alt: '2000 rupee note' },
-        { value: 500, image: '../dist/assets/images/500.jpg', alt: '500 rupee note' },
-        { value: 200, image: '../dist/assets/images/200.jpg', alt: '200 rupee note' },
-        { value: 100, image: '../dist/assets/images/100.jpg', alt: '100 rupee note' },
-        { value: 50, image: '../dist/assets/images/50.jpg', alt: '50 rupee note' },
-        { value: 20, image: '../dist/assets/images/20.jpg', alt: '20 rupee note' },
-        { value: 10, image: '../dist/assets/images/10.jpg', alt: '10 rupee note' },
-        { value: 5, image: '../dist/assets/images/5.jpg', alt: '5 rupee coin' },
-        { value: 2, image: '../dist/assets/images/2.jpg', alt: '2 rupee coin' },
-        { value: 1, image: '../dist/assets/images/1.jpg', alt: '1 rupee coin' }
+        { value: 2000, image: 'https://res.cloudinary.com/dpf0opeos/image/upload/v1747505009/2000_ozjxaz.jpg', alt: '2000 rupee note' },
+        { value: 500, image: 'https://res.cloudinary.com/dpf0opeos/image/upload/v1747505009/500_a2nn3t.jpg', alt: '500 rupee note' },
+        { value: 200, image: 'https://res.cloudinary.com/dpf0opeos/image/upload/v1747505010/200_e2xotw.jpg', alt: '200 rupee note' },
+        { value: 100, image: 'https://res.cloudinary.com/dpf0opeos/image/upload/v1747505010/100_ticakk.jpg', alt: '100 rupee note' },
+        { value: 50, image: 'https://res.cloudinary.com/dpf0opeos/image/upload/v1747505009/50_abcfxv.jpg', alt: '50 rupee note' },
+        { value: 20, image: 'https://res.cloudinary.com/dpf0opeos/image/upload/v1747505010/20_mrr9md.jpg', alt: '20 rupee note' },
+        { value: 10, image: 'https://res.cloudinary.com/dpf0opeos/image/upload/v1747505009/10_wrbpco.jpg', alt: '10 rupee note' },
+        { value: 5, image: 'https://res.cloudinary.com/dpf0opeos/image/upload/v1747505009/5_to6exr.jpg', alt: '5 rupee coin' },
+        { value: 2, image: 'https://res.cloudinary.com/dpf0opeos/image/upload/v1747505008/2_vgauiz.jpg', alt: '2 rupee coin' },
+        { value: 1, image: 'https://res.cloudinary.com/dpf0opeos/image/upload/v1747505009/1_vysfpv.jpg', alt: '1 rupee coin' }
     ];
 
     return (
@@ -68,7 +68,7 @@ const CurrencyCounter = () => {
                       <img 
                         src={note.image} 
                         alt={note.alt} 
-                        className="h-full object-contain"
+                        className="h-full"
                         onError={(e) => {
                           e.target.onerror = null; 
                           e.target.src = "https://via.placeholder.com/80x40?text=₹"+note.value;
