@@ -81,7 +81,7 @@ const CurrencyCounter = () => {
                       </label>
                       <div className="flex gap-2">
                         <input
-                          type="number"
+                          type="text"
                           min="0"
                           value={currencyValues[note.value]}
                           onChange={(e) => handleChange(note.value, e.target.value)}
