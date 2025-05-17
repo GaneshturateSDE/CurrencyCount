@@ -1,12 +1,79 @@
-# React + Vite
+Indian Currency Counter App
+A responsive React application for counting Indian currency denominations and calculating the total amount.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Multi-denomination Support: Handles all standard Indian currency notes (₹2000, ₹500, ₹200, ₹100, ₹50, ₹20, ₹10) and coins (₹5, ₹2, ₹1)
 
-Currently, two official plugins are available:
+Real-time Calculation: Automatically calculates total amount as you input quantities
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Responsive Design: Optimized for both mobile and desktop viewing
 
-## Expanding the ESLint configuration
+Single column layout on mobile devices
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Two-column layout on desktop for better space utilization
+
+Visual Currency Display: Shows images of each currency denomination
+
+Indian Number Formatting: Displays amounts in standard Indian currency format (with comma separators)
+
+Installation
+Clone the repository:
+
+bash
+git clone https://github.com/yourusername/indian-currency-counter.git
+cd indian-currency-counter
+Install dependencies:
+
+bash
+npm install
+Start the development server:
+
+bash
+npm start
+Usage
+Enter quantities for each denomination in the input fields
+
+The app will automatically:
+
+Calculate the subtotal for each denomination
+
+Display the running total at the bottom
+
+The total amount is formatted according to Indian numbering system (e.g., ₹1,23,456)
+
+Technologies Used
+React.js
+
+Tailwind CSS
+
+JavaScript (ES6+)
+
+HTML5
+
+
+Customization
+You can easily customize:
+
+Colors by modifying Tailwind classes
+
+Layout by adjusting the grid/column structure
+
+Currency images by replacing the image URLs
+
+Known Issues
+Some RBI currency images may not load due to CORS restrictions (fallback placeholders are provided)
+
+Input validation could be enhanced for decimal values
+
+Future Enhancements
+Add the ability to save/load counts
+
+Include a breakdown of denominations needed for a target amount
+
+Add printing functionality
+
+Support for older currency denominations
+
+License
+MIT License - Free to use and modify
+
