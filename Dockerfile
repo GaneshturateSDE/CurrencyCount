@@ -20,4 +20,4 @@ COPY . .
 EXPOSE 5173
 
 # Start app
-CMD ["npm", "start"]
+CMD ["npm", "run","dev"]
